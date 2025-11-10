@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JenkinsCiCdApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JenkinsCiCdApplication.class, args);
+        SpringApplication.run(JenkinsCiCdApplication.class, args);
 	}
 
     @GetMapping("/greetings/{name}")
